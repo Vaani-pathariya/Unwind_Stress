@@ -1,0 +1,27 @@
+.recording{
+    width: 100%;
+    background-color: #11114d;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.recording h2{
+    margin: 0;
+}
+.recording-heading{
+    padding-top: 5%;
+}
+.recording-heading h1{
+    font-style: italic;
+    font-size: 6em;
+}
+.start-stop img{
+    width: 6em;
+    margin: 0 20px ;
+}
+.forward_signup{
+    background-color:rgb(93, 221, 131);
+    margin: 5%;
+    padding: 15px;
+    border-radius: 15px;
+}
