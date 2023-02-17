@@ -3,6 +3,11 @@
 }
 .loading{
     text-align: center;
+    background-color: rgb(17, 17, 77);
+    height: 100vh;
+}
+.loading h2{
+    color: white;
 }
 .loading_bubbles{
     margin: 0 auto;

@@ -7,7 +7,7 @@ export default function Loading(){
         <div className="loading">
         <img src={work} className="Loading_img"></img>
         <h2>Loading</h2>
-        <ReactLoading type={"bubbles"} color={"#5A7AD6"} height={'20%'} width={'10%'} className="loading_bubbles"/>
+        <ReactLoading type={"bubbles"} color={"white"} height={'20%'} width={'10%'} className="loading_bubbles"/>
         </div>
     )
 }
