@@ -1,0 +1,38 @@
+.wrapper-signup{
+    
+    width: 80%;
+    margin: 0 auto ;
+    text-align: center;
+}
+.wrapper-signup h1{
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+    color: white;
+}
+.signup-main{
+    background-color: #11114d;
+    margin: 0;
+    padding: 0;
+}
+.entry{
+    background-color: #0d0d31;
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+    width: 86%;
+    margin-top: 4%;
+    border-style: none;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.652);
+    font-size: larger;
+}
+.signup-final-button{
+    padding: 1%;
+    font-size: larger;
+    margin: 2%;
+    background-color: rgb(176, 65, 220);
+    color: white;
+    border-radius: 5px;
+}

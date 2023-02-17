@@ -3,6 +3,7 @@ import start from "../start.png"
 import stop from "../stop.png"
 import reset from "../reset.png"
 import { useEffect, useState,useRef } from "react"
+import { Link } from "react-router-dom"
 const Recording=()=>{
     const [time,setTime]=useState(0);
     useEffect(()=>{
@@ -32,7 +33,7 @@ const Recording=()=>{
                 <img src={stop} onClick={()=>clearInterval(id.current)} ></img>
                 
             </div>
-            <button className="forward_signup"><h3>Ready to move forward</h3></button>
+            <Link to={`/signup/?time=${time}`}><button className="forward_signup"><h3>Ready to move forward</h3></button></Link>
             </div>
         </div>
     )
