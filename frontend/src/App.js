@@ -4,6 +4,7 @@ import Loading from "./pages/Loading";
 import { useState,useEffect } from "react";
 import "./app.css"
 import React from "react";
+import Recording from "./pages/Recording";
 function App() {
   const [loading,setLoading]=useState(false);
   useEffect(()=>{
@@ -20,6 +21,7 @@ function App() {
         :
         <Routes>
          <Route exact path="/" element={<Main/>}></Route>
+         <Route path="/recording" element={<Recording/>}></Route>
         </Routes>
       }
     </div>
