@@ -1,6 +1,6 @@
 const Main=()=>{
     return (
-        <div></div>
+        <div>hello after loading is complete</div>
     )
 }
 export default Main;
