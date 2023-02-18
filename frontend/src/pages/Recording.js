@@ -35,7 +35,7 @@ const Recording=()=>{
                 <img src={stop} onClick={()=>clearInterval(id.current)} ></img>
                 
             </div>
-            <Link to={`/signup/?time=${time}`}><button className="forward_signup"><h3>Ready to move forward</h3></button></Link>
+            <Link to={`/dashboard/?time=${time}`}><button className="forward_signup"><h3>Ready to move forward</h3></button></Link>
             </div>
         </div>
     )

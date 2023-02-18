@@ -1,0 +1,26 @@
+.dashboard{
+    display: flex;
+
+}
+.dashboard nav{
+    background-color: #11114d;
+    width: 10%;
+    height: 100vh;
+    text-align: center;
+}
+.dashboard nav img{
+    width: 80%;
+}
+.yup{
+    padding-left: 2%;
+    background-color: #262675;
+    width: 88%;
+}
+.wrapper-dashboard{
+    height: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.wrapper-dashboard img{
+    margin-top: 30%;
+}
