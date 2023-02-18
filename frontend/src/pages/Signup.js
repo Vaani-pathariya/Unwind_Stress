@@ -1,4 +1,4 @@
-
+import logo from "../logo1.png"
 import React, { useState } from "react";
 import "./Signup.css"
 const Signup=()=>{
@@ -38,6 +38,7 @@ const Signup=()=>{
     return(
         <div className="signup-main">
             <div className="wrapper-signup">
+            <img src={logo} className="logo-big"></img>
             <h1>Signup</h1>
             <input className="entry" type="text" placeholder="First Name" onChange={handle_first} value={first}>
             </input>

@@ -4,6 +4,7 @@ import stop from "../stop.png"
 import reset from "../reset.png"
 import { useEffect, useState,useRef } from "react"
 import { Link } from "react-router-dom"
+import logo from "../logo1.png"
 const Recording=()=>{
     const [time,setTime]=useState(0);
     useEffect(()=>{
@@ -17,6 +18,7 @@ const Recording=()=>{
     }
     return(
         <div className="recording">
+            <img src={logo} className="logo-big"></img>
             <div className="recording-heading">
             <h2>Let's measure your attention span first</h2>
             <h1>{

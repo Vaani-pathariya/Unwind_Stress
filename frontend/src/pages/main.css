@@ -1,14 +1,22 @@
 .wrapper-main{
-    background-color: #11114d;
+    
     height: 100vh;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
+.profess{
+    background-color: #11114d;
+    text-align: center;
+}
+.profess img{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
 .signup,.signin{
     width: 35%;
     height: 60%;
-    margin-top: 10%;
     border-radius: 10px;
 
 }

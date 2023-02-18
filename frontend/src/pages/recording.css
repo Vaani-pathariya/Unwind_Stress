@@ -1,19 +1,22 @@
 .recording{
     width: 100%;
     background-color: #11114d;
-    height: 100vh;
+    height: 100%;
     color: white;
     text-align: center;
+}
+.logo-big{
+    width: 20%;
 }
 .recording h2{
     margin: 0;
 }
-.recording-heading{
-    padding-top: 5%;
-}
+
 .recording-heading h1{
     font-style: italic;
     font-size: 6em;
+    margin: 2%;
+    padding: 0;
 }
 .start-stop img{
     width: 6em;
