@@ -7,6 +7,10 @@ import React from "react";
 import Recording from "./pages/Recording";
 
 import Dashboard from "./pages/Dashboard";
+import Work from "./pages/Work";
+import Yoga from "./pages/Yoga";
+import Music from "./pages/Music";
+import Settings from "./pages/Settings";
 function App() {
   const [loading,setLoading]=useState(false);
   useEffect(()=>{
@@ -25,7 +29,10 @@ function App() {
          <Route exact path="/" element={<Main/>}></Route>
          <Route path="/recording" element={<Recording/>}></Route>
          <Route path="/dashboard" element={<Dashboard/>}>
-          <Route></Route>
+          <Route exact path="" element={<Settings/>}></Route>
+          <Route path="work" element={<Work/>}></Route>
+          <Route path="yoga" element={<Yoga/>}></Route>
+          <Route path="music" element={<Music/>}></Route>
          </Route>
         </Routes>
       }

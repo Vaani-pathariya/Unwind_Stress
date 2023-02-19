@@ -1,0 +1,16 @@
+.settings{
+    color: white;
+}
+.wrapper-settings{
+    width: 80%;
+    margin-left: 8%;
+    padding-top: 10%;
+    text-align: center;
+}
+.wrapper-settings button{
+    background-color: aqua;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 5%;
+    
+}
