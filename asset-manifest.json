@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Unwind_Stress/static/css/main.712b660f.css",
-    "main.js": "/Unwind_Stress/static/js/main.c7fdf1e0.js",
+    "main.css": "/Unwind_Stress/static/css/main.05b2938a.css",
+    "main.js": "/Unwind_Stress/static/js/main.ef917ea1.js",
     "static/media/work.png": "/Unwind_Stress/static/media/work.0ab46ae373c6383d6980.png",
-    "static/media/signin1.png": "/Unwind_Stress/static/media/signin1.7b88fe6bb23a7932e061.png",
     "static/media/signup.png": "/Unwind_Stress/static/media/signup.ae08358f36a3ae279cb7.png",
     "static/media/logo1.png": "/Unwind_Stress/static/media/logo1.2f8b81b96fea757cf254.png",
     "index.html": "/Unwind_Stress/index.html",
-    "main.712b660f.css.map": "/Unwind_Stress/static/css/main.712b660f.css.map",
-    "main.c7fdf1e0.js.map": "/Unwind_Stress/static/js/main.c7fdf1e0.js.map"
+    "main.05b2938a.css.map": "/Unwind_Stress/static/css/main.05b2938a.css.map",
+    "main.ef917ea1.js.map": "/Unwind_Stress/static/js/main.ef917ea1.js.map"
   },
   "entrypoints": [
-    "static/css/main.712b660f.css",
-    "static/js/main.c7fdf1e0.js"
+    "static/css/main.05b2938a.css",
+    "static/js/main.ef917ea1.js"
   ]
 }
