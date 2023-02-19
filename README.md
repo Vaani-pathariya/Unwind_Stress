@@ -1,6 +1,6 @@
  ## Unwind Stress
 
-
+![MasterHead](https://github.com/Vaani-pathariya/Unwind_Stress/blob/4e397e6cddd0af2d12051edb5ce71bee617f2985/unwind%20stress-logos.jpeg)
 
 ### Project Demo link
 Github pages deployment : https://vaani-pathariya.github.io/Unwind_Stress/<br>
@@ -22,6 +22,7 @@ Linkedin :https://www.linkedin.com/in/vaani-pathariya-443888223/<br>
 Github: https://github.com/Vaani-pathariya
 
 ### Preview
+![MasterHead](https://github.com/Vaani-pathariya/Unwind_Stress/blob/4e397e6cddd0af2d12051edb5ce71bee617f2985/preview.jpg)
 
 ### Set up Project
 ```
